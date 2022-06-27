@@ -1,0 +1,68 @@
+// main: style.scss
+
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color:  $color-bg-blue;
+  margin-top: 150px;
+}
+
+
+.header-footer {
+  width: 100%;
+  margin-bottom: 20px;
+  .container__header__footer__items {
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 20px;
+    display: flex;
+    .container-title-footer {
+      padding-top: 5px;
+      padding-left: 10px;
+      h3 {
+        padding-bottom: 0;
+      }
+    }
+    .container-logo {
+      width: 40px;
+      margin-left: 25px;
+
+      }
+  }
+}
+
+
+.container-footer {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .container__footer__item {
+    text-align: center;
+    width: auto;
+    margin-bottom: 20px;
+    li {
+      padding: 10px;
+      list-style-type: none;
+      display: block;
+      font-size: 13px;
+    }
+  }
+}
+
+.social-footer {
+  padding: 20px 20px 50px 20px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  li {
+    display: inline-block;
+  }
+}
+
+.social__item__footer {
+  width: 35px;
+  display: block;
+}
